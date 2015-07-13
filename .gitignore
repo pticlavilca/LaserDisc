@@ -3,3 +3,4 @@ assets/src
 .html
 .css
 .idea
+.src/main/webapp/prepros.cfg

@@ -1,0 +1,29 @@
+@import url("reset.css");
+@import url("grid.css");
+@import url("nav.css");
+@font-face {
+  font-family: "MYRIADPROREGULAR";
+  src: url("../fonts/MYRIADPROREGULAR.eot");
+  src: local("MYRIADPROREGULAR"), url("../fonts/MYRIADPROREGULAR.woff") format("woff"), url("../fonts/MYRIADPROREGULAR.ttf") format("truetype");
+}
+
+body {
+  background-color: #fff;
+  font-family: "MYRIADPROREGULAR", sans-serif;
+}
+
+#container {
+  background-color: #eee;
+  width: 80%;
+}
+
+header {
+  overflow: hidden;
+}
+
+#logo {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  width: 5%;
+}
