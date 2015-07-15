@@ -1,26 +1,44 @@
 @import url("reset.css");
 @import url("grid.css");
-@import url("nav.css");
-@font-face {
-  font-family: "MYRIADPROREGULAR";
-  src: url("../fonts/MYRIADPROREGULAR.eot");
-  src: local("MYRIADPROREGULAR"), url("../fonts/MYRIADPROREGULAR.woff") format('woff'), url("../fonts/MYRIADPROREGULAR.ttf") format("truetype");
-}
+@import url("link.css");
+@import url("MYRIADPROREGULAR_font.css");
+
 body{
   background-color:#fff;
   font-family: "MYRIADPROREGULAR", sans-serif;
 }
-#container{
+/*Navigation*/
+nav{
   background-color:#eee;
-  width: 80%;
+  margin:0;
+  overflow: hidden;
+}
+nav ul{
+  margin:0;
+  padding:0;
+}
+nav ul li{
+  display:inline-block;
+  list-style-type: none;
+}
+nav > ul > li > a{
+  box-sizing: border-box;
+  color:#aaa;
+  display: block;
+  line-height: 2em;
+  padding:0.5em 0.5em;
 }
 
+/*End Navigation*/
 header{
-  overflow:hidden;
+  background: url("../images/disc.png") no-repeat;
+  background-size:100%;
+  display: table;
+  height: 90%;
+  width: 100%;
 }
-#logo{
-  display:inline-block;
-  float:left;
+header p{
+  display: table-cell;
+  text-align:center;
   vertical-align: middle;
-  width: 5%;
 }
