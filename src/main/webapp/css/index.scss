@@ -6,39 +6,63 @@
 body{
   background-color:#fff;
   font-family: "MYRIADPROREGULAR", sans-serif;
+  color:#000;
+
 }
 /*Navigation*/
-nav{
-  background-color:#eee;
-  margin:0;
-  overflow: hidden;
-}
 nav ul{
-  margin:0;
-  padding:0;
+  background-color: #222222;
+  height: 3em;
+  display: table;
+  width:100%;
 }
-nav ul li{
-  display:inline-block;
-  list-style-type: none;
+nav li{
+  float:left;
+  margin-left:0.5em;
+  padding-top: 1em;
+  display: table-cell;
 }
-nav > ul > li > a{
-  box-sizing: border-box;
-  color:#aaa;
-  display: block;
-  line-height: 2em;
-  padding:0.5em 0.5em;
-}
-
 /*End Navigation*/
+
+/*Header*/
 header{
+  align-items:center;
   background: url("../images/disc.png") no-repeat;
   background-size:100%;
-  display: table;
-  height: 90%;
+  color: #ffffff;
+  display:flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content:center;
   width: 100%;
 }
-header p{
-  display: table-cell;
-  text-align:center;
-  vertical-align: middle;
+/*End Header*/
+
+/*Separator*/
+.separator{
+  background-color: #007A9F;
+  height: 0.05em;
+  margin:1em auto;
+  width: 80%;
+
 }
+/*Separator*/
+
+
+section{
+  text-align: center;
+}
+
+/*Our Products*/
+.boxProduct{
+  margin: 1em;
+  padding: 1em;
+  text-align: justify;
+  background-color: #134D96;
+}
+ul li{
+  list-style-type: none;
+}
+
+/*End Our Products*/
+
