@@ -1,68 +1,11 @@
-@import url("reset.css");
-@import url("grid.css");
-@import url("link.css");
-@import url("MYRIADPROREGULAR_font.css");
-
-body{
-  background-color:#fff;
-  font-family: "MYRIADPROREGULAR", sans-serif;
-  color:#000;
-
-}
-/*Navigation*/
-nav ul{
-  background-color: #222222;
-  height: 3em;
-  display: table;
-  width:100%;
-}
-nav li{
-  float:left;
-  margin-left:0.5em;
-  padding-top: 1em;
-  display: table-cell;
-}
-/*End Navigation*/
-
-/*Header*/
-header{
-  align-items:center;
-  background: url("../images/disc.png") no-repeat;
-  background-size:100%;
-  color: #ffffff;
-  display:flex;
-  flex-direction: column;
-  height: 400px;
-  justify-content:center;
-  width: 100%;
-}
-/*End Header*/
-
-/*Separator*/
-.separator{
-  background-color: #007A9F;
-  height: 0.05em;
-  margin:1em auto;
-  width: 80%;
-
-}
-/*Separator*/
+/*base libraries*/
+@import url("base/moduls");
+@import url("base/variables");
+@import url("fonts/MYRIADPROREGULAR");
 
 
-section{
-  text-align: center;
-}
 
-/*Our Products*/
-.boxProduct{
-  margin: 1em;
-  padding: 1em;
-  text-align: justify;
-  background-color: #134D96;
-}
-ul li{
-  list-style-type: none;
-}
 
-/*End Our Products*/
+
+
 
