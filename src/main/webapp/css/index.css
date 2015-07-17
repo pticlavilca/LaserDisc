@@ -90,13 +90,12 @@ header {
 }
 
 .boxProduct {
-  color: #fff;
   width: 100%;
   height: 190px;
   text-align: justify;
-  background-color: rgba(26, 161, 212, 0.5);
+  background-color: rgba(26, 161, 212, 0.2);
   margin-top: 0.1em;
-  padding: 0.5em;
+  padding: 0.8em;
   box-sizing: border-box;
 }
 
