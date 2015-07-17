@@ -1,11 +1,10 @@
 /*base libraries*/
-@import url("base/moduls");
-@import url("base/variables");
-@import url("fonts/MYRIADPROREGULAR");
+@import "reset";
+@import "MYRIADPROREGULAR_font";
 
-
-
-
-
-
-
+/*Project*/
+@import "document";
+@import "nav";
+@import "header";
+@import "product";
+@import "packacking";

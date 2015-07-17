@@ -1,4 +1,110 @@
 /*base libraries*/
-@import url("base/moduls");
-@import url("base/variables");
-@import url("fonts/MYRIADPROREGULAR");
+body, html, h1, h2, h3, h4, h5, nav, ul {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "MYRIADPROREGULAR";
+  src: url("../fonts/MYRIADPROREGULAR.eot");
+  src: local("MYRIADPROREGULAR"), url("../fonts/MYRIADPROREGULAR.woff") format("woff"), url("../fonts/MYRIADPROREGULAR.ttf") format("truetype");
+}
+
+/*Project*/
+h2 {
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 1em;
+}
+
+body {
+  background-image: url("../images/dotted.png");
+  font-family: MYRIADPROREGULAR;
+  font-weight: normal;
+}
+
+a {
+  color: #646464;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1AA1D4;
+  font-weight: 500;
+}
+
+.separator {
+  width: 920px;
+  margin: auto;
+  text-align: center;
+}
+
+section {
+  width: 920px;
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+section ul li {
+  list-style-type: none;
+}
+
+nav {
+  background-color: #EBEBEB;
+}
+
+nav ul {
+  width: 920px;
+  overflow: hidden;
+  margin: auto;
+}
+
+nav ul li {
+  float: left;
+  margin: 1em;
+}
+
+header {
+  background-image: url("../images/image.png");
+  height: 595px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#textHeader {
+  width: 48%;
+  color: #000;
+  font-weight: 600;
+  margin: 2em auto;
+}
+
+.spacer {
+  height: 35%;
+}
+
+.boxProduct {
+  color: #fff;
+  width: 100%;
+  height: 190px;
+  text-align: justify;
+  background-color: rgba(26, 161, 212, 0.5);
+  margin-top: 0.1em;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.boxProduct a {
+  float: right;
+}
+
+#products ul li {
+  padding-left: 1em;
+  margin: 0.5em;
+}

@@ -1,0 +1,15 @@
+nav{
+  background-color:$color2;
+
+
+  ul{
+    width: $screen_size;
+    overflow: hidden;
+    margin: auto;
+
+    li{
+      float:left;
+      margin:1em;
+    }
+  }
+}
